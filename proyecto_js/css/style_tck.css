@@ -1,0 +1,41 @@
+.container{
+    max-width: 800px;
+}
+
+
+.card-groups  {text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  
+    align-content: center !important;
+    
+    
+    ;
+
+   
+} 
+
+.card {margin: .3em;
+width: auto;
+border-radius: 0px;}
+
+.row row-cols-1 row-cols-md-3 g-2 {
+    padding: 10em;
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
+    .card-groups  {text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center !important;
+        
+  }
+  
+    
+}
